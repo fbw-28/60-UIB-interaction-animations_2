@@ -1,9 +1,6 @@
-.wrapper {
-    margin-top: 200px;
-    text-align: center;
-}
-
 .button {
+    display: inline-block;
+    list-style: none;
     background-color: turquoise;
     padding: 1rem;
     font-weight: bold;
