@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1.2rem;
+}
+
+.navbar {
+
+    display: flex;
+    flex-flow: row;
+    justify-content: start;
+    padding: 10px;
+    margin-left: 50px;
+    
+}
+
+.navbtn {
+    padding: 4px;
+    margin: 4px;
+}
+
+.navbtn:hover {
+    background-color: red;
+    transition: all 0.5s ease;
+    transform: translateY(-5px);
+    
+}
+
