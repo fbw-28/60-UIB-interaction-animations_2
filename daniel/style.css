@@ -22,14 +22,13 @@ header {
 }
 
 .header-nav li:hover {
-    animation: anim-onHover 5s ease-in;
-    animation-direction: normal;
+    animation: anim-onHover .5s ease-in-out forwards;
 }
 
 /* ##### KEYFRAMES ##### */
 
 @keyframes anim-onHover {
-    5% {
+    to {
         background-color: red;
         transform: translate(0, -5px);
     }
