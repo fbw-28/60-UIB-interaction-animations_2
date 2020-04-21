@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul {
+    height: 60px;
+    list-style-type: none;
+  background-color: #31fad8;
+}
+li {
+    float: left;
+    padding: 0px 20px 0 20px;
+    line-height: 60px;
+    font-size: 150%;
+    /* transition: 1s; */
+    /* animation-name: bounce; */
+}
+
+li:hover {
+    animation: bounce 0.7s ;
+    background-color: black;
+            color: white; 
+}
+    @keyframes bounce {
+        0%, 20%, 60%, 100% {
+            -webkit-transform: translateY(0);
+            transform: translateY(0);
+            
+        }
+    
+        40% {
+            -webkit-transform: translateY(-20px);
+            transform: translateY(-20px);
+        }
+    
+        80% {
+            -webkit-transform: translateY(-10px);
+            transform: translateY(-10px);
+        }
+    }
