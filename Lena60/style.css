@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.container {
+    display: flex;
+    margin: 30px 15px;
+}
+
+li {
+    list-style-type: none;
+    font-size: 30px;
+    border: 1px solid black;
+    margin: auto 15px;
+    padding: 10px;
+    background-color: cadetblue;
+    transition: 1s all;
+}
+
+li:hover {
+    animation: items_color 3s linear infinite;
+}
+
+@keyframes items_color {
+    from {
+        background-color: cadetblue;
+        border-radius: 10%;
+    }
+
+    50% {
+        background-color: purple;
+        font-style: italic;
+        border-radius: 20%;
+        transform: scale(1.2);
+    }
+
+    to {
+        background-color: red;
+        border-radius: 30%;
+    }
+}
