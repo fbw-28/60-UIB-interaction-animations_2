@@ -1,0 +1,35 @@
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ##### HEADER NAVIGATION ##### */
+
+header {
+    padding: 10px;
+}
+
+.header-nav li {
+    display: inline-block;
+    margin: 10px;
+    padding: 5px;
+    background-color: turquoise;
+}
+
+.header-nav li:hover {
+    animation: anim-onHover .5s ease-in-out forwards;
+}
+
+/* ##### KEYFRAMES ##### */
+
+@keyframes anim-onHover {
+    to {
+        background-color: red;
+        transform: translate(0, -5px);
+    }
+}
