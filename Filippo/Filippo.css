@@ -1,3 +1,4 @@
+
 .list-items {
     font-size: 2rem;
     padding: 1rem;
@@ -13,6 +14,14 @@ ul {
     justify-content: flex-start;
 }
 li:hover {
-    transform: scale(1.5);
-    background-color: red;
+  /* animation-name: hover; 
+  animation-duration: forward;
+  animation-timing-function:ease-in-out ; */
+  animation: hover forwards ease-in-out ;  
+  
+}
+@keyframes hover {
+    to {background-color: red;
+        transform: translate(0, -6px);
+    }
 }
