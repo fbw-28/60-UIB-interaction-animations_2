@@ -15,13 +15,14 @@ ul {
 }
 li:hover {
   /* animation-name: hover; 
-  animation-duration: forward;
+  animation-duration: 1s;
+  animation-fill-mode: forward;
   animation-timing-function:ease-in-out ; */
-  animation: hover forwards ease-in-out ;  
+  animation: hover 1s forwards ease-in-out ;  
   
 }
 @keyframes hover {
     to {background-color: red;
-        transform: translate(0, -6px);
+        /* transform: translate(0, -6px); */
     }
 }
