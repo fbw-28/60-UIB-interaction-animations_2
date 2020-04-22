@@ -14,8 +14,8 @@
 
 .items:hover { 
     animation-duration: 2s;
+    animation-fill-mode: forwards;
     animation-name: effect;
-    
 }
 
 @keyframes effect {
