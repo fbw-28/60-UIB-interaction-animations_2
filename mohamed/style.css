@@ -1,0 +1,28 @@
+.button {
+    display: inline-block;
+    list-style: none;
+    background-color: turquoise;
+    margin: 0 auto;
+    padding: 1.2em;
+    font-size: 120%;
+
+}
+
+.button:hover {
+    animation-name: hoverbtn;
+    animation-timing-function: cubic-bezier(.200, .2, .100, .100);
+    animation-fill-mode:forwards;
+    animation-duration: 0.2s;
+}
+
+@keyframes  hoverbtn {
+    from {
+        background-color:purple;
+    }
+
+    to {
+        background-color: red;
+        transform: translate(-1px, -10px);
+    }
+
+}
