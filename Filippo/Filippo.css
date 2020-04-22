@@ -23,6 +23,6 @@ li:hover {
 }
 @keyframes hover {
     to {background-color: red;
-        /* transform: translate(0, -6px); */
+         transform: translate(0, -6px); 
     }
 }
