@@ -19,8 +19,14 @@
 }
 
 @keyframes effect {
-    from,to {
-        background-color: rgb(226, 1, 1);
-        transform: translate(5px, -5px);
+    from {
+        background-color: cyan;
       }    
+    50% {
+        transform: translate(3px, -3px);
+    }
+    to {
+        background-color: rgb(226, 1, 1);
+        transform: translate(6px, -6px);
+      }  
 }
