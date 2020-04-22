@@ -1,28 +1,19 @@
-* {
-    margin: 0;
-    padding: 10px;
-    box-sizing: border-box;
-}
-
 .navbar {    
     list-style: none;
-    display: flex;
-    flex-flow: row;
-    justify-content: flex-start;      
+    display: flex;   
+    flex-direction: row;        
 }
 
-.subnav {
+.items {
     margin: 5px;   
     background-color: cyan;  
-    font-size: 20px;
-    border: none;
-    outline: none;
+    font-size: 20px;   
     color: rgb(37, 34, 34);
     padding: 10px;
 }
 
-.subnav:hover {
-    animation: fade 10s alternate-reverse;   
+.items:hover { 
+    animation-duration: 2s;
     animation-name: effect;
     
 }
