@@ -1,0 +1,30 @@
+.button {
+    display: inline-block;
+    list-style: none;
+    background-color: turquoise;
+    padding: 1rem;
+    font-weight: bold;
+    font-size: 1rem;
+    outline: none;
+    border: none;
+
+}
+
+.button:hover {
+    animation-name: hovereff;
+    animation-timing-function: cubic-bezier(.17, .67, .83, .67);
+    animation-fill-mode: forwards;
+    animation-duration: 0.2s;
+}
+
+@keyframes hovereff {
+    from {
+        background-color: yellow;
+    }
+
+    to {
+        background-color: red;
+        transform: translate(0px, -10px);
+    }
+
+}

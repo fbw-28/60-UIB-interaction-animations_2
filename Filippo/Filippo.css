@@ -1,0 +1,28 @@
+
+.list-items {
+    font-size: 2rem;
+    padding: 1rem;
+    text-decoration: none;
+    color: black;
+    background-color:teal;
+    margin: 1rem;
+    list-style: none;
+} 
+ul {
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-start;
+}
+li:hover {
+  /* animation-name: hover; 
+  animation-duration: 1s;
+  animation-fill-mode: forward;
+  animation-timing-function:ease-in-out ; */
+  animation: hover 1s forwards ease-in-out ;  
+  
+}
+@keyframes hover {
+    to {background-color: red;
+         transform: translate(0, -6px); 
+    }
+}
