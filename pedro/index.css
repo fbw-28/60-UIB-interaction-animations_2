@@ -4,11 +4,12 @@
     box-sizing: border-box;
     font-size: 1.2rem;
 }
+ul {
+    list-style-type: none;
+}
 
 .navbar {
-
     display: flex;
-    flex-flow: row;
     justify-content: start;
     padding: 10px;
     margin-left: 50px;
@@ -16,14 +17,23 @@
 }
 
 .navbtn {
+    border: 1px solid black;
+    background-color: rgba(159, 159, 201, 0.534);
     padding: 4px;
     margin: 4px;
 }
 
 .navbtn:hover {
     background-color: red;
-    transition: all 0.5s ease;
-    transform: translateY(-5px);
-    
+    animation: jump-up 0.5s forwards;
 }
 
+@keyframes jump-up {
+    0% {
+        transform: translateY(0);
+    }
+   
+    100% {
+        transform: translateY(-5px);
+    }
+  }
